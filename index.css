@@ -14,6 +14,7 @@ nav{
     height: 15vh;
     /* background: green; */
     position: relative;
+    justify-content: space-around;
 }
 
 nav::after{
@@ -30,5 +31,107 @@ nav::after{
 .nav-title{
     font-family: 'GROBOLD';
     font-size: 40px;
+    width: 25%;
+    text-align: center;
     color: #0e4839;
+}
+
+nav span:nth-child(2){
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    /* background: #0e4839; */
+    position: relative;
+    /* border: 1px solid black; */
+}
+
+nav a{
+    text-decoration: none;
+    color: #0e4839;
+}
+
+nav span:nth-child(3){
+    height: 100%;
+    /* background: #0e4839; */
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+span:nth-child(3) a:nth-child(1){
+    background: #0e4839;
+    padding: 10px 20px;
+    border: 1px solid #0e4839;
+    /* border-radius: 20px; */
+    color: #fff;
+    transition: .2s all;
+}
+
+span:nth-child(3) a:nth-child(2){
+    /* background: #ffc702; */
+    border: 1px solid #0e4839;
+    padding: 10px 15px;
+    /* border-radius: 10px; */
+    transition: .2s all;
+    color: #0e4839;
+}
+
+
+span:nth-child(3) a:nth-child(1):hover{
+    border: 1px solid #0e4839;
+    background: transparent;
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: #0e4839;
+}
+
+span:nth-child(3) a:nth-child(2):hover{
+    background: #0e4839;
+    padding: 10px 15px;
+    border-radius: 20px;
+    color: #fff;
+}
+
+nav span:nth-child(2) a:nth-child(1):hover::after{
+    position: absolute;
+    content: '';
+    height: 3%;
+    right: 59.5%;
+    width: 6%;
+    bottom: 40px;
+    /* margin-left: 2.5%; */
+    background: #0e4839;
+    /* background: #ffc702; */
+    transition: .2s all;
+}
+
+nav span:nth-child(2) a:nth-child(2):hover::after{
+    position: absolute;
+    content: '';
+    height: 3%;
+    right: 48%;
+    width: 6.5%;
+    bottom: 40px;
+    /* margin-left: 2.5%; */
+    background: #0e4839;
+    /* background: #ffc702; */
+    transition: .2s all;
+}
+
+nav span:nth-child(2) a:nth-child(3):hover::after{
+    position: absolute;
+    content: '';
+    height: 3%;
+    right: 34.5%;
+    width: 8%;
+    bottom: 40px;
+    /* margin-left: 2.5%; */
+    background: #0e4839;
+    /* background: #ffc702; */
+    transition: .2s all;
 }
