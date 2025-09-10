@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Poppins';
+    background-color: #fdfce7;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    height: 15vh;
+    /* background: green; */
+    position: relative;
+}
+
+nav::after{
+    position: absolute;
+    content: '';
+    height: 3%;
+    width: 100%;
+    bottom: 0;
+    /* margin-left: 2.5%; */
+    background: #0e4839;
+    /* background: #ffc702; */
+}
+
+.nav-title{
+    font-family: 'GROBOLD';
+    font-size: 40px;
+    color: #0e4839;
+}
