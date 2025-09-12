@@ -1,7 +1,7 @@
 const file = [
   {
     version: "1.2",
-    des: "Dataexey 1.2 includes improvements and bug fixes. It still focuses on duplicate file detection and prevention.",
+    des: "Dataexey 1.2 includes UI improvements and bug fixes.",
     file: "./Extensions/Duplicate-detection V 1.2.zip"
   },
   {
