@@ -18,8 +18,8 @@
 
         <span>
             <a href="">Home</a>
-            <a href="">About</a>
-            <a href="">Contact</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
         </span>
 
         <span>
@@ -48,22 +48,7 @@
     <p class="version-title">Version</p>
 
     <div class="version-download" id="version-download">
-        <!-- <div class="version-download-content">
-            <p>Version 1.0</p>
-            <p>
-                Dataexey 1.0 is the initial release of the browser extension. It includes basic features such as
-                duplicate file detection and prevention.
-            </p>
-            <a href="./Duplicate-detection.zip" download="./Duplicate-detection.zip">Dataexey 1.0 <i class='bx bx-download bx-sm'></i></a>
-        </div>
-        <div class="version-download-content">
-            <p>Version 1.1</p>
-            <p>
-                Dataexey 1.1 is the initial release of the browser extension. It includes basic features such as
-                duplicate file detection and prevention.
-            </p>
-            <a href="./Duplicate-detection.zip" download="./Duplicate-detection.zip">Dataexey 1.1 <i class='bx bx-download bx-sm'></i></a>
-        </div> -->
+
     </div>
 
     <p class="version-title">Guideline for setup</p>
@@ -73,7 +58,8 @@
         <p>2) After extraction, open the <u>\download_files</u> folder.</p>
         <p>3) Locate and open the <u>newdetect.py</u> file.</p>
         <p>4) On line 8, change the path from <u>r"C:\Users\Admin\Downloads"</u> to
-            <u>r"C:\Users\your-name\needed-folder"</u>.</p>
+            <u>r"C:\Users\your-name\needed-folder"</u>.
+        </p>
         <p>5) Open <u>Google Chrome</u> and go to <u>chrome://extensions</u>.</p>
         <p>6) Turn on <u>Developer Mode</u> in the top right corner.</p>
         <p>7) Click the <u>Load Unpacked</u> button.</p>
@@ -81,6 +67,43 @@
         <p>9) Upload it to complete the setup.</p>
     </ul>
 
+    <p class="version-title">How to use ?</p>
+
+    <ul class="instruction">
+        <p>1) Start the <u>newdetect.py</u> file in the terminal as <u>' python newdetect.py '</u></p>
+        <p>2) Open <u>Google Chrome</u> and start downloading files.</p>
+        <p>3) The extension will automatically detect duplicate files and prompt you to choose an action.</p>
+        <p>4) You can choose to keep the new file, replace the old file, or cancel the download.</p>
+        <p>5) The extension will continue running in the background, monitoring your downloads for duplicates.</p>
+        <p>6) Enjoy a clutter-free download experience with Dataexey!</p>
+        <p>7) If you encounter any issues or have suggestions for improvement, please don't hesitate to contact us.</p>
+        <p>8) Thank you for using Dataexey!</p>
+        <p>9) For more information, visit our <u>official website</u> or check out our <u>GitHub repository</u>.</p>
+    </ul>
+
+    <section id="about">
+        <h2>About</h2>
+        <p>
+            Dataexey is a lightweight and efficient browser extension designed to prevent duplicate file downloads.
+            By detecting files that already exist in your system, it saves storage space, reduces bandwidth usage,
+            and keeps your downloads organized. Our mission is to simplify file management and provide users with
+            a clutter-free browsing experience.
+        </p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>If you have any questions, feedback, or need support, feel free to reach out:</p>
+        <ul>
+            <li><i class='bx bx-envelope'></i> Email: <a
+                    href="mailto:manojhb.23cse@kongu.edu">manojhb.23cse@kongu.edu</a></li>
+            <li><i class='bx bx-world'></i> Website: <a href="https://dataexey.vercel.app"
+                    target="_blank">www.dataexey.vercel.app</a>
+            </li>
+            <li><i class='bx bxl-github'></i> GitHub: <a href="github.com/Im-gowtham-cd/dataexey"
+                    target="_blank">github.com/Im-gowtham-cd/dataexey</a></li>
+        </ul>
+    </section>
 
     <script src="./index.js"></script>
 

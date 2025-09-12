@@ -302,3 +302,26 @@ u{
     /* background-color: #0e4839; */
     color: #0e4839;
 }
+
+#about,#contact{
+    height: 20vh;
+    width: 90%;
+    margin: 15px 5%;
+    /* border: 1px solid #0e4839; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#about,#contact p,h2{
+    /* font-size: 20px; */
+    color: #0e4839;
+    text-align: justify;
+}
+
+#contact ul,a{
+    list-style: none;
+    color: #0e4839;
+    /* text-decoration: none; */
+}
+
