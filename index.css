@@ -349,3 +349,12 @@ u{
     border-radius: 10px;
 }
 
+.hero::selection{
+    background-color: #fdfce7;
+    color: #0e4839;
+}
+
+::selection{
+    background-color: #0e4839;
+    color: #fdfce7;
+}
